@@ -1,0 +1,16 @@
+.app{
+    background-color: #073138;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.container-resident {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.app__banner {
+    height: 350px;
+}
