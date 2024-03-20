@@ -1,15 +1,15 @@
 .resident {
     width: 100%;
     max-width: 350px;
-    border: 0.3em solid #7e7d7d;
     border-radius: 0.8em;
-    box-shadow: 0 1em 1em rgba(170, 170, 170, 0.438);
     overflow: hidden;
     background-color: #062226;
     transition: transform 150ms ease;
-
+    
     &:hover {
         transform: scale(1.03);
+        border: 0.3em solid #7e7d7d;
+        box-shadow: 0 1em 1em rgba(170, 170, 170, 0.438);
     }
 }
 
@@ -33,13 +33,18 @@
 }
 
 .art-Alive {
-    border: 0.3em solid rgb(45, 102, 34);
-    box-shadow: 0 0.7em 1.5em rgba(70, 146, 56, 0.438);
+
+    &:hover {
+        border: 0.3em solid rgb(45, 102, 34);
+        box-shadow: 0 0.7em 1.5em rgba(70, 146, 56, 0.438);
+    }
 }
 
 .art-Dead {
-    border: 0.3em solid rgb(143, 15, 15);
-    box-shadow: 0 0.7em 1em rgba(216, 13, 13, 0.61);
+    &:hover {
+        border: 0.3em solid rgb(143, 15, 15);
+        box-shadow: 0 0.7em 1em rgba(216, 13, 13, 0.61);
+    }
 }
 
 .status__circle {
